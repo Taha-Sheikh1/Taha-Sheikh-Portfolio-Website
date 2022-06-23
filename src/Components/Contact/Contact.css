@@ -1,0 +1,120 @@
+.contact .info {
+    width: 100%;
+    background: #FBFBFB;
+  }
+
+  .contact {
+    background-color: #FBFBFB;
+    box-shadow: inset 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .contact .info i, .email-icon, .phone-icon {
+    font-size: 20px;
+    color: #f50606;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #FBFBFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 17px;
+    color: #000000;
+    font-family:   'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .contact .info .email, .contact .info .phone {
+    margin-top: 40px;
+  }
+
+  .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+    background: #f50606;
+    color: #FBFBFB;
+  }
+
+  .contact .email-form {
+    width: 100%;
+    background: #FBFBFB;
+  }
+
+  .contact .email-form .form-group {
+    padding-bottom: 8px;
+  }
+
+  .contact .email-form .error-message {
+    display: none;
+    color: #FBFBFB;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+  }
+
+  .contact .email-form .error-message br + br {
+    margin-top: 25px;
+  }
+
+  
+  .contact .email-form input, .contact .email-form textarea {
+    border-radius: 4px;
+    box-shadow: none;
+    font-size: 14px;
+  }
+
+  .contact .email-form input {
+    height: 44px;
+  }
+
+  .contact .email-form textarea {
+    padding: 10px 12px;
+  }
+
+  .contact .email-form button[type=submit] {
+    background: #f50606;
+    border: 0;
+    padding: 10px 35px;
+    color: #FBFBFB;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+ .ValidityError {
+  color: #ed3c0d;
+  font-size: 15px;
+ }
+  .contact .email-form button[type=submit]:hover {
+    background: #000000;
+  }
+
+  @-webkit-keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

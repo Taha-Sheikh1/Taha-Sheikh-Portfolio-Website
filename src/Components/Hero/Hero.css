@@ -1,0 +1,126 @@
+#home {
+    width: auto;
+    height: auto;
+    position: relative;
+    background: #ffffff;
+  }
+  @media (min-width: 992px) {
+    #home {
+      padding-left: 160px;
+    }
+  }
+  #home h1 {
+    margin: 0;
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 56px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+  }
+  #home p {
+    color: #000000;
+    margin: 25px 0 0 0;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 8px;
+  }
+  .hero-linkedin{
+    color: #4b42ec;
+    font-size: 38px;
+    transition: 0.2s;
+  }
+  .hero-github {
+    margin-left: 10px;
+    color: #2c2c2c;
+    font-size: 38px;
+    transition: 0.2s;
+  }
+  .hero-github:hover {
+    color: #000000;
+    transition: 0.2s;
+  }
+  .hero-linkedin:hover {
+    color: #1105fd;
+    transition: 0.2s;
+  }
+  #home p span {
+    color: #e03a3c;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+  #home .social-links {
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+
+ .linkedin, .github {
+  pointer-events: none !important;
+  cursor: pointer !important;
+  font-size: 38px; 
+  color: #000000; 
+ }
+ .github {
+  margin-left: 18px;
+ }
+
+ 
+  
+  @media (max-width: 992px) {
+    #home {
+      text-align: center;
+    }
+    #home h1 {
+      font-size: 32px;
+      line-height: 40px;
+    }
+    #home p {
+      margin-top: 10px;
+      font-size: 26px;
+      line-height: 34px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    #home {
+      text-align: center;
+    }
+    #home h1 {
+      font-size: 35px !important;
+      line-height: 40px;
+    }
+    #home p {
+      margin-top: 10px;
+      font-size: 23px;
+      line-height: 34px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    #home {
+      text-align: center;
+    }
+    #home h1 {
+      font-size: 30px !important;
+      line-height: 40px;
+    }
+    #home p {
+      margin-top: 10px;
+      font-size: 19px;
+      line-height: 34px;
+    }
+  }
+
+  @media (max-width: 1232px) {
+     #home h1 {
+      font-size: 55px;
+     }
+  }
+
+
+  @media (max-width: 1073px) {
+    #home h1 {
+     font-size: 50px;
+    }
+ }
+ 
+ 

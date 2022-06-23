@@ -1,0 +1,109 @@
+.about .container {
+    position: relative;
+    z-index: 10;
+  }
+ 
+  .about {
+    background-color: #ffffff !important;
+  }
+  .about .content {
+    padding: 30px 30px 30px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .about .content h3 {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .about .content p {
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .about .content .about-btn {
+    padding: 8px 30px 9px 30px;
+    color: #ffffff;
+    border-radius: 50px;
+    transition: 0.3s;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    background-color: #e03a3c;
+    text-decoration: none;
+  }
+ 
+  .about .content .about-btn:hover {
+    background: #000000;
+  }
+  
+  .about .icon-boxes .icon-box {
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .about .icon-boxes .icon-box a {
+    /* text-decoration: none; */
+    color: #000000;
+  }
+  .about .icon-boxes .icon-box i {
+    font-size: 40px;
+    color: #e03a3c;
+    margin-bottom: 10px;
+  }
+  .about .icon-boxes .icon-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .about .icon-boxes .icon-box p {
+    font-size: 15px;
+    color: #000000;
+  }
+  @media (max-width: 1200px) {
+    .about .content {
+      padding-right: 0;
+    }
+  }
+  @media (max-width: 768px) {
+    .about {
+      text-align: center;
+    }
+  }
+  .ChevronRight {
+    margin-left: 8px;
+    font-size: 13px;
+  }
+
+  .about {
+    background-color: #F9F8FF;
+    box-shadow: inset 0px 0px 1px 0px rgba(0, 0, 0, 0.05);
+  }
+
+  .about-icons {
+    color: #e03a3c;
+    margin-bottom: 10px;
+    font-size: 45px;
+  }
+  .linkedin-about, .github-about{
+    color: #e03a3c;
+    margin-bottom: 10px;
+    font-size: 35px;
+    margin-left: 0px;
+    transition: 0.2s;
+  }
+  .linkedin-about:hover {
+    color: #1105fd;
+    transition: 0.2s;
+  }
+  .github-about:hover {
+    color: #000000;
+    transition: 0.2s;
+  }
+
+
+
+
+
+
